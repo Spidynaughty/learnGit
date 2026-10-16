@@ -47,3 +47,10 @@ showTasks();
 
 const completedCount = tasks.filter((task) => task.completed).length;
 console.log(`\nCompleted ${completedCount} of ${tasks.length} tasks.`);
+
+function isEven(number) {
+  return number % 2 === 0;
+}
+
+console.log(isEven(8)); // true
+console.log(isEven(5)); // false
