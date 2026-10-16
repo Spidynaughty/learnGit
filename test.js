@@ -37,6 +37,11 @@ addTask("Learn JavaScript variables");
 addTask("Practice array methods");
 addTask("Build a small project");
 
+const scores = [55, 82, 39, 96, 70];
+const passingScores = scores.filter((score) => score >= 60);
+
+console.log(passingScores); // [82, 96, 70]
+
 completeTask(1);
 showTasks();
 
