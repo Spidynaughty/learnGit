@@ -51,6 +51,8 @@ function binarySearch(arr, target) {
 // Example: the array must be sorted
 console.log(binarySearch([1, 3, 5, 7, 9], 7)); // 3
 
+console.log(binarySearch([1, 3, 5, 7, 9], 9)); // 3
+
 addTask("Learn JavaScript variables");
 addTask("Practice array methods");
 addTask("Build a small project");
